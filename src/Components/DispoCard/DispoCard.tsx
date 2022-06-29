@@ -2,16 +2,21 @@ import React from "react";
 import { Image, Text, View } from "react-native";
 import { Styles } from "./style";
 
-export const DispoCard = (props) => {
+interface Card{
+    foto: any,
+    nome: string
+}
+
+export const DispoCard = ({foto,nome}: Card) => {
     return (
         <View>
 
             <View style={Styles.card}>
-                <Image style={Styles.img} source={props.foto}/>
+                <Image style={Styles.img} source={foto}/>
             </View>
 
             <View>
-                <Text style={Styles.texto}>{props.nome}</Text>
+                <Text style={Styles.texto}>{nome}</Text>
             </View>
            
         </View>

@@ -7,6 +7,7 @@ import EchoEALEXA from '../../assets/images/EchoEAlexa.png'
 import TodosDispo from '../../assets/images/TodosDispo.png'
 import Plugues from '../../assets/images/Plugues.png'
 import Adicionar from '../../assets/images/BotaoAdicionar.png'
+import { ModalAtrib } from "../../modais/ModalAtrib";
 export const Dispositivos = () => {
     return (
         <View style={Styles.container}>
@@ -22,6 +23,8 @@ export const Dispositivos = () => {
                 <DispoCard foto={Cenas} nome='Cenas'/>
                 <DispoCard foto={TodosDispo} nome='Todos os dispositivos'/>
             </ScrollView>
+
+            <ModalAtrib/>
 
             <View style={Styles.favoritos}>
                 <Text style={Styles.favoritosText}>Favoritos</Text>

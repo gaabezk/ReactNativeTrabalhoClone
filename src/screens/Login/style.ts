@@ -74,6 +74,16 @@ export const Styles = StyleSheet.create({
     borderColor: '#464646',
     borderRadius: 3,
   },
+  select2:{
+    width: 6,
+    height: 5,
+    padding: 10,
+    borderStyle: 'solid',
+    borderWidth: 1,
+    borderColor: '#464646',
+    borderRadius: 3,
+    tintColor:'#F6F6F6'
+  },
   textoSenha:{
     paddingLeft: 15,
     fontSize: 16

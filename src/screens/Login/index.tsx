@@ -1,10 +1,25 @@
-import React from "react";
+import { useState } from "react";
 import { Image, Text, TextInput, TouchableOpacity, View } from "react-native";
 import { Styles } from "./style"
 import Logo from "../../assets/images/amazonLogo.png"
 import Select from "../../assets/images/select.png"
+import * as React from 'react';
 
 export const Login = () => {
+
+    const [hidePass,setHidePass] = useState<boolean>(true)
+    const [style,setStyle] = useState<boolean>(false)
+
+    function mostrarOcultar(){
+    if(hidePass === true){
+        setHidePass(false)
+        setStyle(true)
+    }else{
+        setHidePass(true)
+        setStyle(false)
+    }
+    }
+
     return (
         <View style={Styles.container}>
 
@@ -16,16 +31,17 @@ export const Login = () => {
                 <Text style={Styles.titulo}>Fazer login</Text>
                 <Text style={Styles.esqueciSenha}>Esqueci a senha</Text>
                 <TextInput placeholderTextColor='#686767' style={Styles.input} placeholder="E-mail ou número de telefone"/>
-                <TextInput placeholderTextColor='#686767' style={Styles.input} placeholder="Senha Amazon"/>
-            
+                <TextInput secureTextEntry={hidePass} placeholderTextColor='#686767' style={Styles.input} placeholder="Senha Amazon"/>
 
-            <View style={Styles.senha}>
-                <Image source={Select} style={Styles.select}/>
+            <TouchableOpacity onPress={mostrarOcultar}  style={Styles.senha}>
+                <Image source={Select} style={style?Styles.select:Styles.select2}/>
                 <Text style={Styles.textoSenha}>Mostrar senha</Text>
-            </View>
+            </TouchableOpacity>
+
                 <TouchableOpacity style={Styles.botaoLogin}>
                     <Text style={Styles.texto}>FAZER LOGIN</Text>
                 </TouchableOpacity>
+
             <View>
                 <Text style={Styles.termos}>  
                     Ao continuar, você concorda com as <Text style={Styles.azul}>Condições de Uso</Text> da Amazon.
