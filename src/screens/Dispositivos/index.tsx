@@ -1,6 +1,6 @@
 import React from "react";
 import { Image, ScrollView, Text, View } from "react-native";
-import { DispoCard } from "../../Components/DispoCard/DispoCard";
+import { DispoCard } from "../../components/DispoCard/DispoCard";
 import { Styles } from "./style";
 import Cenas from '../../assets/images/Cenas.png'
 import EchoEALEXA from '../../assets/images/EchoEAlexa.png'
@@ -21,10 +21,10 @@ export const Dispositivos = () => {
                 <DispoCard foto={EchoEALEXA} nome='Echo e Alexa'/>
                 <DispoCard foto={Plugues} nome='Plugues'/>
                 <DispoCard foto={Cenas} nome='Cenas'/>
-                <DispoCard foto={TodosDispo} nome='Todos os dispositivos'/>
+                <DispoCard foto={TodosDispo} nome='All Devices'/>
             </ScrollView>
 
-            <ModalAtrib/>
+            {/* <ModalAtrib/> */}
 
             <View style={Styles.favoritos}>
                 <Text style={Styles.favoritosText}>Favoritos</Text>

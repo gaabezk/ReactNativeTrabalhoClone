@@ -2,6 +2,7 @@ import {StyleSheet} from 'react-native';
 
 export const Styles = StyleSheet.create({
   container: {
+    flex:1,
     backgroundColor: '#F6F6F6',
   },
   nav:{
@@ -22,6 +23,7 @@ export const Styles = StyleSheet.create({
     height:20
   },
   favoritos:{
+    flex:100,
     flexDirection:'row',
     margin:10,
     marginTop:23,

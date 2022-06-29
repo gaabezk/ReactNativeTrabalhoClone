@@ -100,7 +100,7 @@ export const Styles = StyleSheet.create({
   footer:{
     paddingBottom: 45,
     borderTopColor: '#C0C0C0',
-    borderBottomColor: '#A2A2A2',
+    borderBottomColor: '#aaa',
     borderTopWidth: 1,
     borderBottomWidth: 1
   },

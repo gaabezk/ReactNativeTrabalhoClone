@@ -1,8 +1,8 @@
 import React from 'react';
-import { Login } from './src/screens/Login';
+import { Rotas } from './src/rotas';
 
 export default function App() {
   return (
-    <Login/>
+    <Rotas/>
   );
 }
