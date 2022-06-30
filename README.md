@@ -6,4 +6,10 @@
     <img align="center" src="https://i.imgur.com/ecMNc7s.png" width="200px">
 </div
 <h1>Telas LOGIN / DISPOSITIVOS<h1>
+<h2>App Original Amazon Alexa</h2>
+<div align="left">
+    <img align="center" src="https://i.imgur.com/3GcZrgw.png" width="200px">
+    <img align="center" src="https://i.imgur.com/BtZWCiK.jpeg" width="200px">
+</div
+<h1>Telas LOGIN / DISPOSITIVOS<h1>
 <br><br>
