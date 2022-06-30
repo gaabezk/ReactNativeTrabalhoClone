@@ -1,5 +1,5 @@
 import React from "react";
-import { Image, Text, View } from "react-native";
+import { Image, Text, TouchableOpacity, TouchableOpacityBase, TouchableOpacityComponent, View } from "react-native";
 import { Styles } from "./style";
 
 interface Card{
@@ -11,9 +11,9 @@ export const DispoCard = ({foto,nome}: Card) => {
     return (
         <View>
 
-            <View style={Styles.card}>
+            <TouchableOpacity style={Styles.card}>
                 <Image style={Styles.img} source={foto}/>
-            </View>
+            </TouchableOpacity>
 
             <View>
                 <Text style={Styles.texto}>{nome}</Text>

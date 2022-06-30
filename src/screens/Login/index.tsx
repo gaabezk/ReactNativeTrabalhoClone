@@ -9,8 +9,8 @@ export const Login = ( {navigation}:any ) => {
 
     const [hidePass,setHidePass] = useState<boolean>(true);
     const [style,setStyle] = useState<boolean>(false);
-    const [user,setUser] = useState<string>('');
-    const [pass,setPass] = useState<string>('');
+    const [user,setUser] = useState<string>('gabriel');
+    const [pass,setPass] = useState<string>('admin123');
 
     const userADM = 'gabriel';
     const passADM = 'admin123';

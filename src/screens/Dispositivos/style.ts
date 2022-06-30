@@ -4,6 +4,8 @@ export const Styles = StyleSheet.create({
   container: {
     flex:1,
     backgroundColor: '#F6F6F6',
+    marginLeft:4,
+    marginRight:4
   },
   nav:{
     alignSelf:'flex-end',
@@ -23,7 +25,6 @@ export const Styles = StyleSheet.create({
     height:20
   },
   favoritos:{
-    flex:100,
     flexDirection:'row',
     margin:10,
     marginTop:23,
