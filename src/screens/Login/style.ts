@@ -6,29 +6,28 @@ export const Styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#F6F6F6',
   },
-  nav:{
+  nav: {
     alignItems: 'center',
     alignContent: 'center',
     borderBottomColor: '#A2A2A2',
     borderBottomWidth: 1,
-    paddingBottom:7
-
+    paddingBottom: 7,
   },
-  titulo:{
+  titulo: {
     fontSize: 25,
     color: '#323232',
     marginBottom: 4,
   },
-  image:{
+  image: {
     width: 300,
     height: 84,
   },
-  login:{
+  login: {
     margin: 20,
   },
-  input:{
-    paddingLeft:15,
-    backgroundColor:'white',
+  input: {
+    paddingLeft: 15,
+    backgroundColor: 'white',
     height: 46,
     marginTop: 2,
     borderStyle: 'solid',
@@ -36,7 +35,7 @@ export const Styles = StyleSheet.create({
     borderColor: '#ccc',
     borderRadius: 4,
   },
-  botaoLogin:{
+  botaoLogin: {
     backgroundColor: '#0071b7',
     alignItems: 'center',
     alignContent: 'center',
@@ -46,26 +45,26 @@ export const Styles = StyleSheet.create({
     borderColor: '#0071b7',
     borderRadius: 4,
   },
-  texto:{
+  texto: {
     padding: 12,
     alignItems: 'center',
     alignContent: 'center',
     fontSize: 15,
     color: 'white',
   },
-  esqueciSenha:{
+  esqueciSenha: {
     paddingBottom: 12,
     fontSize: 14,
-    color:'#0054ba',
-    alignSelf:"flex-end"
+    color: '#0054ba',
+    alignSelf: 'flex-end',
   },
-  senha:{
+  senha: {
     flexDirection: 'row',
     padding: 15,
     paddingLeft: 8,
-    paddingTop: 22
+    paddingTop: 22,
   },
-  select:{
+  select: {
     width: 6,
     height: 5,
     padding: 10,
@@ -74,7 +73,7 @@ export const Styles = StyleSheet.create({
     borderColor: '#464646',
     borderRadius: 3,
   },
-  select2:{
+  select2: {
     width: 6,
     height: 5,
     padding: 10,
@@ -82,40 +81,40 @@ export const Styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: '#464646',
     borderRadius: 3,
-    tintColor:'#F6F6F6'
+    tintColor: '#F6F6F6',
   },
-  textoSenha:{
+  textoSenha: {
     paddingLeft: 15,
-    fontSize: 16
+    fontSize: 16,
   },
-  termos:{
-    color:'#464646',
-    fontSize:14.9,
-    paddingTop:18,
-    paddingBottom: 32
+  termos: {
+    color: '#464646',
+    fontSize: 14.9,
+    paddingTop: 18,
+    paddingBottom: 32,
   },
-  azul:{
-    color:'#0054ba'
+  azul: {
+    color: '#0054ba',
   },
-  footer:{
+  footer: {
     paddingBottom: 45,
     borderTopColor: '#C0C0C0',
     borderBottomColor: '#aaa',
     borderTopWidth: 1,
-    borderBottomWidth: 1
+    borderBottomWidth: 1,
   },
-  botaoCriarConta:{
+  botaoCriarConta: {
     backgroundColor: '#e8e9ec',
     alignItems: 'center',
     alignContent: 'center',
     marginTop: 18,
     borderRadius: 4,
   },
-  textoCriarConta:{
+  textoCriarConta: {
     padding: 12,
     alignItems: 'center',
     alignContent: 'center',
     fontSize: 16,
-    color:'#0054ba'
-  }
-})
+    color: '#0054ba',
+  },
+});
