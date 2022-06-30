@@ -1,7 +1,7 @@
 import React from 'react';
 import {Image, ScrollView, Text, TouchableOpacity, View} from 'react-native';
 import {DispoCard} from '../../components/DispoCard/DispoCard';
-import {Styles} from './style';
+import {styles} from './style';
 import Card from '../../assets/images/Quarto.png';
 import Cenas from '../../assets/images/Cenas.png';
 import EchoEALEXA from '../../assets/images/EchoEAlexa.png';
@@ -16,11 +16,11 @@ import {Favoritos} from '../../components/Favoritos/Favoritos';
 
 export const Dispositivos = () => {
   return (
-    <View style={Styles.container}>
-      <View style={Styles.nav}>
-        <Text style={Styles.navTexto}>DISPOSITIVOS</Text>
+    <View style={styles.container}>
+      <View style={styles.nav}>
+        <Text style={styles.navTexto}>DISPOSITIVOS</Text>
         <TouchableOpacity>
-          <Image style={Styles.botaoAdic} source={Adicionar} />
+          <Image style={styles.botaoAdic} source={Adicionar} />
         </TouchableOpacity>
       </View>
 
@@ -31,13 +31,11 @@ export const Dispositivos = () => {
         <DispoCard foto={TodosDispo} nome="All Devices" />
       </ScrollView>
 
-      {/* <ModalAtrib/> */}
-
       <View style={{flex: 50}}>
-        <View style={Styles.favoritos}>
-          <Text style={Styles.BoldText}>Favoritos</Text>
+        <View style={styles.favoritos}>
+          <Text style={styles.BoldText}>Favoritos</Text>
           <TouchableOpacity>
-            <Text style={Styles.editar}>Editar</Text>
+            <Text style={styles.editar}>Editar</Text>
           </TouchableOpacity>
         </View>
 
@@ -53,15 +51,15 @@ export const Dispositivos = () => {
         </ScrollView>
       </View>
 
-      <View style={Styles.card}>
-        <Text style={Styles.BoldText}>Grupos</Text>
+      <View style={styles.card}>
+        <Text style={styles.BoldText}>Grupos</Text>
         <TouchableOpacity>
-          <Image style={Styles.cardImg} source={Card} />
+          <Image style={styles.cardImg} source={Card} />
         </TouchableOpacity>
-        <Text style={Styles.grupoNome}>Quarto</Text>
+        <Text style={styles.grupoNome}>Quarto</Text>
       </View>
       <TouchableOpacity>
-        <Text style={Styles.ultimoTexto}>SUAS SKILLS DE CASA INTELIGENTE</Text>
+        <Text style={styles.ultimoTexto}>SUAS SKILLS DE CASA INTELIGENTE</Text>
       </TouchableOpacity>
     </View>
   );

@@ -1,6 +1,6 @@
 import {StyleSheet} from 'react-native';
 
-export const Styles = StyleSheet.create({
+export const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#F6F6F6',
@@ -60,8 +60,8 @@ export const Styles = StyleSheet.create({
     color: 'white',
   },
   ultimoTexto: {
-    marginTop: 30,
-    marginBottom: 90,
+    marginTop: 35,
+    marginBottom: 40,
     alignSelf: 'center',
     color: '#0270ab',
     fontSize: 16,

@@ -1,9 +1,9 @@
+import * as React from 'react';
 import {useState} from 'react';
 import {Image, Text, TextInput, TouchableOpacity, View} from 'react-native';
 import {Styles} from './style';
 import Logo from '../../assets/images/amazonLogo.png';
 import Select from '../../assets/images/select.png';
-import * as React from 'react';
 
 export const Login = ({navigation}: any) => {
   const [hidePass, setHidePass] = useState<boolean>(true);
@@ -26,7 +26,7 @@ export const Login = ({navigation}: any) => {
 
   function autenticar() {
     if (user === userADM && pass === passADM) {
-      navigation.navigate('Dispositivos');
+      navigation.navigate('MyTabs');
     }
   }
 
